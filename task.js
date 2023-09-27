@@ -58,6 +58,7 @@ fetch(api1Url)
       console.log(`Country: ${country.name.common}`);
       console.log(`Region: ${country.region}`);
       console.log(`Subregion: ${country.subregion}`);
+        console.log(`Population: ${country.population}`);
       console.log('-------------------');
     });
   })
